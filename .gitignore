@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# geocoding cache (regenerated on demand, hits nominatim.org)
+/.cache
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
